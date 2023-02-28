@@ -10,13 +10,13 @@ API_ID = int(getenv("API_ID", "6435225")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1622957309").split()))
-OWNER_ID = int(getenv("OWNER_ID, "1622957309")) #ur id
-MONGO_URL = getenv("MONGO_URL, "mongodb+srv://beebelacaja:beebelac@beebelac.bvkxulj.mongodb.net/?retryWrites=true&w=majority") # an database
+OWNER_ID = int(getenv("OWNER_ID, "1622957309"))
+MONGO_URL = getenv("MONGO_URL, "mongodb+srv://beebelacaja:beebelac@beebelac.bvkxulj.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6264816249:AAE6zBHIZzLC_YaccwpFeAdZT7QaCZPzPcY")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT") #optional
-PM_LOGGER = getenv("PM_LOGGER") # I'd if uh want
-LOG_GROUP = getenv("LOG_GROUP") #id if uh want to enable tagalert
+PM_LOGGER = getenv("PM_LOGGER")
+LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
